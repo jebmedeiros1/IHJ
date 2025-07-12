@@ -1,0 +1,14 @@
+
+streamlit-authenticator==0.3.2
+
+# --- Core do app ------------------------------------------------------------
+streamlit==1.35.0            # interface web
+pandas==2.2.2                # manipulação de dados
+SQLAlchemy==2.0.30           # ORM / engine de BD
+psycopg2-binary==2.9.9       # driver PostgreSQL usado pelo SQLAlchemy
+
+# --- Autenticação via Streamlit --------------------------------------------
+
+# --- Utilidades ------------------------------------------------------------
+PyYAML==6.0.1                # leitura do config.yaml
+python-dotenv==1.0.1         # (opcional) variáveis de ambiente via .env

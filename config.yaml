@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    Jefferson:
+      email: Jeffsilva@klabin.com.br
+      name: Jefferson Medeiros da Silva
+      password: $2a$12$CLOZsEDcCK76Dizj2y2HyOLCC2aT1oX92MX7imCq4nJBI0OENzba. # To be replaced with hashed password
+    Gilberto:
+      email: gilbertol@klabin.com.br
+      name: Gilberto Batista
+      password: $2a$12$CLOZsEDcCK76Dizj2y2HyOLCC2aT1oX92MX7imCq4nJBI0OENzba. # To be replaced with hashed password
+    Hellen:
+      email: hellen.teixeira@klabin.com.br
+      name: Hellen Teixeira
+      password: $2a$12$CLOZsEDcCK76Dizj2y2HyOLCC2aT1oX92MX7imCq4nJBI0OENzba. # To be replaced with hashed password senha
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - jebmedeiros@gmail.com
