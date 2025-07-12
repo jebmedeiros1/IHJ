@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 from sqlalchemy import text
-from .database import engine
+from database import engine
 import yaml
 from yaml.loader import SafeLoader
 
